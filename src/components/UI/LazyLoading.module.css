@@ -1,0 +1,10 @@
+.lazy{
+    margin-top: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width : 360px) {
+    .lazy{
+        text-align: center;
+    }
+}
