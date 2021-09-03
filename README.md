@@ -1,5 +1,7 @@
 # FoodOrderingApp
-
+<p align="center">
+  <img src="https://github.com/helper-uttam/FoodOrderingApp/blob/master/src/assets/meals.jpg" width="600" title="hover text">
+</p>
 
 # Language Used -
 - [x] ReactJS
@@ -26,4 +28,18 @@ https://foodorder-b0645.web.app/
 * I'll be suggesting if anything needed into your open issue.
 * Fork or clone this repo and give it a star.
 * After forking the repo check your repositories there you can see this repo named `FoodOrderingApp` then you can make changes to that forked repo.
-* After editing the code base you can simple raise a PR.
+* After editing the code base you can simply raise a PR.
+
+
+### Need Assistance for running this App on your Localhost. 
+- [x] After downloading this project in **ZIP format** or **cloning** using command line args.
+> If you had downloaded this project then make sure you unzip this directory. 
+- Make sure you are having `node` installed in your localhost. If not kindly refer to this link <a href="https://nodejs.org/">Download Latest Version form here</a>.
+> After instaling `node` you are capable of running a localserver on your *localhost:3000* (by default) 🎉🎉🎉🎉.
+- Now, we have to run `npm i` or `npm install`. 
+> This will install all the required dependencies and list then inside a *package.json* file. 
+> Now we have came to end of the setup and we have to run `npm start` this will spin the server and **You will be redirected to Your Browser at `localhost:3000` where the Website is being hosted**.
+
+```diff
++ console.log("Do share your feedback about this project?");
+```
