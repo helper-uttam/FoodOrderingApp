@@ -1,4 +1,4 @@
-import  React ,{ useState, Suspense } from "react";
+import React, { useState, Suspense } from "react";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
@@ -18,18 +18,18 @@ function App() {
 
   return (
     <Suspense
-    fallback={
+      fallback={
         <div className="lazyLoading">
-            <LazyLoading />
-        </div>  
+          <LazyLoading />
+        </div>
       }>
       <CartProvider>
-      {cartIsShown && <Cart onClose={hideCartHandler} />}
-      <Header onShowCart={showCartHandler} />
+        {cartIsShown && <Cart onClose={hideCartHandler} />}
+        <Header onShowCart={showCartHandler} />
         <main>
           <Meals />
         </main>
-    </CartProvider>
+      </CartProvider>
     </Suspense>
   );
 }
